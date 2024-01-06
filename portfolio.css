@@ -1,10 +1,13 @@
+/* universal tag apply */
 *{
     font-family: 'Open Sans', sans-serif;
 }
+/* nav bar design */
 nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -30,7 +33,9 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #474747;
+    
 }
+/* button design */
 .btn-primary{
     color: var(--White-Color, #FFF);
 
@@ -41,4 +46,106 @@ background-color: #FD6E0A;
 border-radius: 5px;
 border:0;
 padding: 15px;
+}
+/* header style */
+.header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-left: 30px;
+}
+/* banner related style */
+.banner{
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* image style */
+.banner .profile-picture{
+    width: 500px;
+  
+   
+}
+.banner-greeting{
+color: #474747;
+margin-bottom: 0;
+
+font-size: 45px;
+
+}
+.banner-title{
+    color: #181818;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.short description{
+    color:#757575;
+    font-size: 18px;
+    margin-top: 30px;
+    
+    
+}
+/* main section */
+
+
+.banner-content{
+    max-width: 500px;
+    margin:  auto;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+    color:  #181818;
+    text-align: center;
+   
+    font-size: 35px;
+   
+    font-weight: 700;
+    
+}
+.section-about{
+    
+   margin: 130px 0px;
+    
+   padding: 130px;
+    
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+   
+    font-size: 18px;
+  
+    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what i do description{
+    padding: 30px 150px ;
+}
+/* skills */
+.my-skills{
+   display:flex;
+   padding-top: 50px;
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+margin: 20px;
+padding: 50px 30px 30px 30px ;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
