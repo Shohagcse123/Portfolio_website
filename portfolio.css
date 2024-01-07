@@ -50,9 +50,9 @@ padding: 15px;
 /* header style */
 .header{
     background: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png),url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
     padding-left: 30px;
 }
 /* banner related style */
@@ -100,6 +100,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .section-title{
     color:  #181818;
     text-align: center;
@@ -148,4 +149,68 @@ margin: 20px;
 padding: 50px 30px 30px 30px ;
 
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* Resume style */
+.resume-title{
+    color: var #474747;
+    margin-bottom: 10px;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-titleinfo, .resume-item-description{
+    color:  #757575;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+font-size: 20px;
+
+font-weight: 600;
+
+    
+}
+.resume-title,.resume-item-title{
+    color:  #474747;
+
+font-size: 25px;
+
+font-weight: 700;
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+/* Download cv style */
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
+footer{
+    display: flex;
+    margin-top: 130px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  gap:100px;
+ 
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom:24px;
+    padding:18px 30px;
+    border-radius: 5px;
+    width: 100%;
+   background:#FFF;
+border: none;
+}
+.social-links a{
+margin-right: 25px;
 }
